@@ -16,7 +16,7 @@ publisher = URIRef('publisher')
 
 
 g = Graph()
-ex = ('http://example.org/')
+ex = Namespace('http://example.org/')
 schema = Namespace('http://schema.org/')
 useful = Namespace('http://usefulinc.com/ns/')
 purl = Namespace('http://purl.org/dc/elements/1.1/')
