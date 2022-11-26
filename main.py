@@ -44,4 +44,6 @@ for index, row in df.iterrows():
     g.add((URIRef(ex+givenName), URIRef(useful+developer), Literal(row['Developer'], datatype=XSD.string)))
     g.add((URIRef(ex+givenName), URIRef(purl+publisher), Literal(row['Publisher'], datatype=XSD.string)))
 
-print(g.serialize(format='turtle').encode('UTF-8'))
+with open("RDF_Games.txt",'x', encoding="utf-8") as f:
+    text = g.serialize(format='turtle').encode('UTF-8').decode()
+    f.write(text)
