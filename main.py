@@ -21,6 +21,92 @@ schema = Namespace('http://schema.org/')
 useful = Namespace('http://usefulinc.com/ns/')
 purl = Namespace('http://purl.org/dc/elements/1.1/')
 
+def date_default(dold):
+    if dold[0] == 'Jan':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1])+2000) + '-01'
+            return dnew
+        else:
+            dnew = str(int(dold[1])+1900) + '-01'
+            return dnew
+    elif dold[0] == 'Feb':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-02'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-02'
+            return dnew
+    elif dold[0] == 'Mar':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-03'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-03'
+            return dnew
+    elif dold[0] == 'Apr':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-04'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-04'
+            return dnew
+    elif dold[0] == 'May':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-05'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-05'
+            return dnew
+    elif dold[0] == 'Jun':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-06'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-06'
+            return dnew
+    elif dold[0] == 'Jul':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-07'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-07'
+            return dnew
+    elif dold[0] == 'Aug':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-08'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-08'
+            return dnew
+    elif dold[0] == 'Sep':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-09'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-09'
+            return dnew
+    elif dold[0] == 'Oct':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-10'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-10'
+            return dnew
+    elif dold[0] == 'Nov':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-11'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-11'
+            return dnew
+    elif dold[0] == 'Dec':
+        if int(dold[1]) <= 22:
+            dnew = str(int(dold[1]) + 2000) + '-12'
+            return dnew
+        else:
+            dnew = str(int(dold[1]) + 1900) + '-12'
+            return dnew
+
 
 def name_default(sold):
     snew = sold
@@ -48,7 +134,10 @@ for index, row in df.iterrows():
         g.add((URIRef(ex + givenName), URIRef(schema + genre), Literal(j)))
 
     g.add((URIRef(ex + givenName), URIRef(schema + videoGameSeries), Literal(row['Series'])))
-    g.add((URIRef(ex + givenName), URIRef(schema + releaseDate), Literal(row['Release'], datatype=XSD.date)))
+
+    Date = date_default(row['Release'].split('-'))
+
+    g.add((URIRef(ex + givenName), URIRef(schema + releaseDate), Literal(Date, datatype=XSD.gYearMonth)))
     g.add((URIRef(ex + givenName), URIRef(useful + developer), Literal(row['Developer'])))
     g.add((URIRef(ex + givenName), URIRef(purl + publisher), Literal(row['Publisher'])))
 
