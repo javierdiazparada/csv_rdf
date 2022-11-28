@@ -1,0 +1,1429 @@
+@prefix ns1: <http://usefulinc.com/ns/doap#> .
+@prefix ns2: <http://schema.org/> .
+@prefix ns3: <http://example.org/> .
+@prefix ns4: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns3:7DaystoDie a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "The Fun Pimps" ;
+    ns2:VideoGameSeries "7 Days" ;
+    ns2:genre "Survival horror" ;
+    ns2:name "7 Days to Die"^^xsd:string ;
+    ns1:developer "The Fun Pimps" .
+
+ns3:ARMA3 a ns2:VideoGame ;
+    ns3:sales "5500000.0"^^xsd:float ;
+    ns4:publisher "Bohemia Interactive" ;
+    ns2:VideoGameSeries "ARMA" ;
+    ns2:genre "Tactical shooter" ;
+    ns2:name "ARMA 3"^^xsd:string ;
+    ns1:developer "Bohemia Interactive" .
+
+ns3:AgeofEmpires a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Microsoft" ;
+    ns2:VideoGameSeries "Age of Empires" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Age of Empires"^^xsd:string ;
+    ns1:developer "Ensemble Studios" .
+
+ns3:AgeofEmpiresIII a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Microsoft" ;
+    ns2:VideoGameSeries "Age of Empires" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Age of Empires III"^^xsd:string ;
+    ns1:developer "Ensemble Studios" .
+
+ns3:AgeofEmpiresIITheAgeofKings a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Microsoft" ;
+    ns2:VideoGameSeries "Age of Empires" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Age of Empires II: The Age of Kings"^^xsd:string ;
+    ns1:developer "Ensemble Studios" .
+
+ns3:AgeofMythology a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Microsoft" ;
+    ns2:VideoGameSeries "Age of Empires" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Age of Mythology"^^xsd:string ;
+    ns1:developer "Ensemble Studios" .
+
+ns3:AmericanMcGeesAlice a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Alice" ;
+    ns2:genre "Action-adventure",
+        "Platformer" ;
+    ns2:name "American McGee's Alice"^^xsd:string ;
+    ns1:developer "Rogue Entertainment" .
+
+ns3:AmericanTruckSimulator a ns2:VideoGame ;
+    ns3:sales "1500000.0"^^xsd:float ;
+    ns4:publisher "SCS Software" ;
+    ns2:VideoGameSeries "Trucks Simulator" ;
+    ns2:genre "Vehicle simulation" ;
+    ns2:name "American Truck Simulator"^^xsd:string ;
+    ns1:developer "SCS Software" .
+
+ns3:Anno1503 a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Sunflowers" ;
+    ns2:VideoGameSeries "Anno" ;
+    ns2:genre "City-building" ;
+    ns2:name "Anno 1503"^^xsd:string ;
+    ns1:developer "Max Design" .
+
+ns3:Anno1602 a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Sunflowers" ;
+    ns2:VideoGameSeries "Anno" ;
+    ns2:genre "City-building" ;
+    ns2:name "Anno 1602"^^xsd:string ;
+    ns1:developer "Max Design" .
+
+ns3:ArkSurvivalEvolved a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Studio Wildcard" ;
+    ns2:VideoGameSeries "Ark: Survival Evolved" ;
+    ns2:genre "Action-adventure",
+        "Survival" ;
+    ns2:name "Ark: Survival Evolved"^^xsd:string ;
+    ns1:developer "Studio Wildcard" .
+
+ns3:BaldursGate a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Interplay Entertainment" ;
+    ns2:VideoGameSeries "Baldur's Gate" ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "Baldur's Gate"^^xsd:string ;
+    ns1:developer "BioWare" .
+
+ns3:BaldursGateIIShadowsofAmn a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Interplay Entertainment" ;
+    ns2:VideoGameSeries "Baldur's Gate" ;
+    ns2:genre "Computer role-playing game" ;
+    ns2:name "Baldur's Gate II: Shadows of Amn"^^xsd:string ;
+    ns1:developer "BioWare" .
+
+ns3:Battlefield1942 a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Battlefield" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Battlefield 1942"^^xsd:string ;
+    ns1:developer "EA DICE" .
+
+ns3:BattlefieldVietnam a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Battlefield" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Battlefield Vietnam"^^xsd:string ;
+    ns1:developer "EA DICE" .
+
+ns3:BioShock a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "2K Games" ;
+    ns2:VideoGameSeries "BioShock" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "BioShock"^^xsd:string ;
+    ns1:developer "Irrational Games" .
+
+ns3:BlackWhite a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "EA Games" ;
+    ns2:VideoGameSeries "Black & White" ;
+    ns2:genre "God game" ;
+    ns2:name "Black & White"^^xsd:string ;
+    ns1:developer "Lionhead Studios" .
+
+ns3:BladeRunner a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Virgin Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Point-and-click" ;
+    ns2:name "Blade Runner"^^xsd:string ;
+    ns1:developer "Westwood Studios" .
+
+ns3:CaesarII a ns2:VideoGame ;
+    ns3:sales "2500000.0"^^xsd:float ;
+    ns4:publisher "Sierra On-Line" ;
+    ns2:VideoGameSeries "Caesar" ;
+    ns2:genre "City-building game" ;
+    ns2:name "Caesar II"^^xsd:string ;
+    ns1:developer "Impressions Game" .
+
+ns3:CaesarIII a ns2:VideoGame ;
+    ns3:sales "2500000.0"^^xsd:float ;
+    ns4:publisher "Sierra Studios" ;
+    ns2:VideoGameSeries "Caesar" ;
+    ns2:genre "City-building game" ;
+    ns2:name "Caesar III"^^xsd:string ;
+    ns1:developer "Impressions Game" .
+
+ns3:CitiesSkylines a ns2:VideoGame ;
+    ns3:sales "5000000.0"^^xsd:float ;
+    ns4:publisher "Paradox Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "City-building" ;
+    ns2:name "Cities: Skylines"^^xsd:string ;
+    ns1:developer "Colossal Order" .
+
+ns3:CivilizationII a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "MicroProse" ;
+    ns2:VideoGameSeries "Civilization" ;
+    ns2:genre "4x",
+        "Turn-based strategy" ;
+    ns2:name "Civilization II"^^xsd:string ;
+    ns1:developer "MicroProse" .
+
+ns3:CivilizationIII a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Infogrames" ;
+    ns2:VideoGameSeries "Civilization" ;
+    ns2:genre "4x",
+        "Turn-based strategy" ;
+    ns2:name "Civilization III"^^xsd:string ;
+    ns1:developer "Firaxis Games" .
+
+ns3:CivilizationIV a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "2K Games & Aspyr" ;
+    ns2:VideoGameSeries "Civilization" ;
+    ns2:genre "4x",
+        "Turn-based strategy" ;
+    ns2:name "Civilization IV"^^xsd:string ;
+    ns1:developer "Firaxis Games" .
+
+ns3:CivilizationV a ns2:VideoGame ;
+    ns3:sales "8000000.0"^^xsd:float ;
+    ns4:publisher "2K Games & Aspyr" ;
+    ns2:VideoGameSeries "Civilization" ;
+    ns2:genre "4x",
+        "Turn-based strategy" ;
+    ns2:name "Civilization V"^^xsd:string ;
+    ns1:developer "Firaxis Games" .
+
+ns3:CommandConquer a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Virgin Interactive" ;
+    ns2:VideoGameSeries "Command & Conquer" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Command & Conquer"^^xsd:string ;
+    ns1:developer "Westwood Studios" .
+
+ns3:CommandConquer3TiberiumWars a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Command & Conquer" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Command & Conquer 3: Tiberium Wars"^^xsd:string ;
+    ns1:developer "EA Los Angeles" .
+
+ns3:CommandConquerRedAlert a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Virgin Interactive" ;
+    ns2:VideoGameSeries "Command & Conquer" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Command & Conquer: Red Alert"^^xsd:string ;
+    ns1:developer "Westwood Studios" .
+
+ns3:CommandConquerRedAlert2 a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Command & Conquer" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Command & Conquer: Red Alert 2"^^xsd:string ;
+    ns1:developer "Westwood Pacific" .
+
+ns3:CommandConquerTiberianSun a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Command & Conquer" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Command & Conquer: Tiberian Sun"^^xsd:string ;
+    ns1:developer "Westwood Studios" .
+
+ns3:CommandosBehindEnemyLines a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Eidos Interactive" ;
+    ns2:VideoGameSeries "Commandos" ;
+    ns2:genre "Real-time tactics" ;
+    ns2:name "Commandos: Behind Enemy Lines"^^xsd:string ;
+    ns1:developer "Pyro Studios" .
+
+ns3:CossacksIINapoleonicWars a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "CDV Software" ;
+    ns2:VideoGameSeries "Cossacks" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Cossacks II: Napoleonic Wars"^^xsd:string ;
+    ns1:developer "GSC Game World" .
+
+ns3:Counter-StrikeConditionZero a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Valve (digital)" ;
+    ns2:VideoGameSeries "Counter-Strike" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Counter-Strike: Condition Zero"^^xsd:string ;
+    ns1:developer "Valve" .
+
+ns3:Counter-StrikeSource a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts (retail)" ;
+    ns2:VideoGameSeries "Counter-Strike" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Counter-Strike: Source"^^xsd:string ;
+    ns1:developer "Valve" .
+
+ns3:CrusaderKingsII a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Paradox Interactive" ;
+    ns2:VideoGameSeries "Crusader Kings" ;
+    ns2:genre "Grand strategy" ;
+    ns2:name "Crusader Kings II"^^xsd:string ;
+    ns1:developer "Paradox Development Studio" .
+
+ns3:CrusaderKingsIII a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Paradox Interactive" ;
+    ns2:VideoGameSeries "Crusader Kings" ;
+    ns2:genre "Grand strategy" ;
+    ns2:name "Crusader Kings III"^^xsd:string ;
+    ns1:developer "Paradox Development Studio" .
+
+ns3:Crysis a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Crysis" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Crysis"^^xsd:string ;
+    ns1:developer "Crytek" .
+
+ns3:CrysisWarhead a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Crysis" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Crysis Warhead"^^xsd:string ;
+    ns1:developer "Crytek Budapest" .
+
+ns3:Cuphead a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "StudioMDHR" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Run and gun" ;
+    ns2:name "Cuphead"^^xsd:string ;
+    ns1:developer "StudioMDHR" .
+
+ns3:Cyberpunk2077 a ns2:VideoGame ;
+    ns3:sales "4500000.0"^^xsd:float ;
+    ns4:publisher "CD Projekt" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Cyberpunk 2077"^^xsd:string ;
+    ns1:developer "CD Projekt Red" .
+
+ns3:Danganronpa2GoodbyeDespair a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Spike Chunsoft" ;
+    ns2:VideoGameSeries "Danganronpa" ;
+    ns2:genre "Adventure",
+        "Visual novel" ;
+    ns2:name "Danganronpa 2: Goodbye Despair"^^xsd:string ;
+    ns1:developer "Spike Chunsoft" .
+
+ns3:DanganronpaTriggerHappyHavoc a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Spike Chunsoft" ;
+    ns2:VideoGameSeries "Danganronpa" ;
+    ns2:genre "Adventure",
+        "Visual novel" ;
+    ns2:name "Danganronpa: Trigger Happy Havoc"^^xsd:string ;
+    ns1:developer "Spike Chunsoft" .
+
+ns3:DarkSouls a ns2:VideoGame ;
+    ns3:sales "3600000.0"^^xsd:float ;
+    ns4:publisher "Namco Bandai Games" ;
+    ns2:VideoGameSeries "Dark Souls" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Dark Souls"^^xsd:string ;
+    ns1:developer "FromSoftware" .
+
+ns3:DarkSoulsII a ns2:VideoGame ;
+    ns3:sales "2700000.0"^^xsd:float ;
+    ns4:publisher "Bandai Namco Games" ;
+    ns2:VideoGameSeries "Dark Souls" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Dark Souls II"^^xsd:string ;
+    ns1:developer "FromSoftware" .
+
+ns3:DarkSoulsIII a ns2:VideoGame ;
+    ns3:sales "3300000.0"^^xsd:float ;
+    ns4:publisher "Bandai Namco Entertainment" ;
+    ns2:VideoGameSeries "Dark Souls" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Dark Souls III"^^xsd:string ;
+    ns1:developer "FromSoftware" .
+
+ns3:DarylFGatesPoliceQuestSWAT a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Sierra Online" ;
+    ns2:VideoGameSeries "Police Quest" ;
+    ns2:genre "Interactive movie" ;
+    ns2:name "Daryl F. Gates' Police Quest: SWAT"^^xsd:string ;
+    ns1:developer "Sierra Online" .
+
+ns3:DayZ a ns2:VideoGame ;
+    ns3:sales "4000000.0"^^xsd:float ;
+    ns4:publisher "Bohemia Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Survival" ;
+    ns2:name "DayZ"^^xsd:string ;
+    ns1:developer "Bohemia Interactive" .
+
+ns3:DeerHunter a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "WizardWorks" ;
+    ns2:VideoGameSeries "Deer Hunter" ;
+    ns2:genre "Sports" ;
+    ns2:name "Deer Hunter"^^xsd:string ;
+    ns1:developer "Sunstorm Interactive" .
+
+ns3:Diablo a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment (North America)" ;
+    ns2:VideoGameSeries "Diablo" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Diablo"^^xsd:string ;
+    ns1:developer "Blizzard North" .
+
+ns3:DiabloII a ns2:VideoGame ;
+    ns3:sales "4000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "Diablo" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Diablo II"^^xsd:string ;
+    ns1:developer "Blizzard North" .
+
+ns3:DiabloIII a ns2:VideoGame ;
+    ns3:sales "20000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "Diablo" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Diablo III"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+ns3:DivinityOriginalSinII a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Larian Studios" ;
+    ns2:VideoGameSeries "Divinity" ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "Divinity: Original Sin II"^^xsd:string ;
+    ns1:developer "Larian Studios" .
+
+ns3:Doom a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "id Software" ;
+    ns2:VideoGameSeries "Doom" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Doom"^^xsd:string ;
+    ns1:developer "id Software" .
+
+ns3:DoomIIHellonEarth a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "GT Interactive" ;
+    ns2:VideoGameSeries "Doom" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Doom II: Hell on Earth"^^xsd:string ;
+    ns1:developer "id Software" .
+
+ns3:DukeNukem3D a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "GT Interactive Software" ;
+    ns2:VideoGameSeries "Duke Nukem" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Duke Nukem 3D"^^xsd:string ;
+    ns1:developer "3D Realms" .
+
+ns3:DungeonLords a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "DreamCatcher Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "Dungeon Lords"^^xsd:string ;
+    ns1:developer "Heuristic Park" .
+
+ns3:DungeonSiege a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Microsoft Game Studios" ;
+    ns2:VideoGameSeries "Dungeon Siege" ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "Dungeon Siege"^^xsd:string ;
+    ns1:developer "Gas Powered Games" .
+
+ns3:EmpireEarth a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Sierra Entertainment" ;
+    ns2:VideoGameSeries "Empire Earth" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Empire Earth"^^xsd:string ;
+    ns1:developer "Stainless Steel Studios" .
+
+ns3:EuroTruckSimulator2 a ns2:VideoGame ;
+    ns3:sales "6500000.0"^^xsd:float ;
+    ns4:publisher "SCS Software" ;
+    ns2:VideoGameSeries "Truck Simulator" ;
+    ns2:genre "Vehicle simulation" ;
+    ns2:name "Euro Truck Simulator 2"^^xsd:string ;
+    ns1:developer "SCS Software" .
+
+ns3:EuropaUniversalisIV a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Paradox Interactive" ;
+    ns2:VideoGameSeries "Europa Universalis" ;
+    ns2:genre "Grand strategy" ;
+    ns2:name "Europa Universalis IV"^^xsd:string ;
+    ns1:developer "Paradox Development Studio" .
+
+ns3:EverQuest a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Sony Online Entertainment" ;
+    ns2:VideoGameSeries "EverQuest" ;
+    ns2:genre "Mmorpg" ;
+    ns2:name "EverQuest"^^xsd:string ;
+    ns1:developer "Verant Interactive" .
+
+ns3:Factorio a ns2:VideoGame ;
+    ns3:sales "2500000.0"^^xsd:float ;
+    ns4:publisher "Wube Software" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "Factorio"^^xsd:string ;
+    ns1:developer "Wube Software" .
+
+ns3:FallGuys a ns2:VideoGame ;
+    ns3:sales "10000000.0"^^xsd:float ;
+    ns4:publisher "Devolver Digital" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Battle royale" ;
+    ns2:name "Fall Guys"^^xsd:string ;
+    ns1:developer "Mediatonic" .
+
+ns3:FarCry a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Ubisoft" ;
+    ns2:VideoGameSeries "Far Cry" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Far Cry"^^xsd:string ;
+    ns1:developer "Crytek" .
+
+ns3:FinalFantasyVII a ns2:VideoGame ;
+    ns3:sales "2100000.0"^^xsd:float ;
+    ns4:publisher "Eidos Interactive" ;
+    ns2:VideoGameSeries "Final Fantasy" ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "Final Fantasy VII"^^xsd:string ;
+    ns1:developer "Square" .
+
+ns3:Frogger a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Hasbro Interactive" ;
+    ns2:VideoGameSeries "Frogger" ;
+    ns2:genre "Action" ;
+    ns2:name "Frogger"^^xsd:string ;
+    ns1:developer "SCE Cambridge Studio" .
+
+ns3:FullThrottle a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "LucasArts" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Graphic adventure" ;
+    ns2:name "Full Throttle"^^xsd:string ;
+    ns1:developer "LucasArts" .
+
+ns3:GarrysMod a ns2:VideoGame ;
+    ns3:sales "20000000.0"^^xsd:float ;
+    ns4:publisher "Valve" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Sandbox" ;
+    ns2:name "Garry's Mod"^^xsd:string ;
+    ns1:developer "Facepunch Studios" .
+
+ns3:GloryoftheRomanEmpire a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "CDV Software" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "City-building game" ;
+    ns2:name "Glory of the Roman Empire"^^xsd:string ;
+    ns1:developer "Haemimont Games" .
+
+ns3:GrandPrix2 a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "MicroProse" ;
+    ns2:VideoGameSeries "Grand Prix" ;
+    ns2:genre "Sim racing" ;
+    ns2:name "Grand Prix 2"^^xsd:string ;
+    ns1:developer "MicroProse" .
+
+ns3:GrandTheftAutoV a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Rockstar Games" ;
+    ns2:VideoGameSeries "Grand Theft Auto" ;
+    ns2:genre "Action-adventure" ;
+    ns2:name "Grand Theft Auto V"^^xsd:string ;
+    ns1:developer "Rockstar North" .
+
+ns3:GuildWars a ns2:VideoGame ;
+    ns3:sales "6000000.0"^^xsd:float ;
+    ns4:publisher "NCsoft" ;
+    ns2:VideoGameSeries "Guild Wars" ;
+    ns2:genre "Mmorpg" ;
+    ns2:name "Guild Wars"^^xsd:string ;
+    ns1:developer "ArenaNet" .
+
+ns3:GuildWars2 a ns2:VideoGame ;
+    ns3:sales "5000000.0"^^xsd:float ;
+    ns4:publisher "NCsoft" ;
+    ns2:VideoGameSeries "Guild Wars" ;
+    ns2:genre "Mmorpg" ;
+    ns2:name "Guild Wars 2"^^xsd:string ;
+    ns1:developer "ArenaNet" .
+
+ns3:Half-Life a ns2:VideoGame ;
+    ns3:sales "9000000.0"^^xsd:float ;
+    ns4:publisher "Sierra Entertainment" ;
+    ns2:VideoGameSeries "Half-Life" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Half-Life"^^xsd:string ;
+    ns1:developer "Valve" .
+
+ns3:Half-Life2 a ns2:VideoGame ;
+    ns3:sales "12000000.0"^^xsd:float ;
+    ns4:publisher "Valve (digital)" ;
+    ns2:VideoGameSeries "Half-Life" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Half-Life 2"^^xsd:string ;
+    ns1:developer "Valve" .
+
+ns3:HarryPotterandthePhilosophersStone a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Harry Potter" ;
+    ns2:genre "Action-adventure" ;
+    ns2:name "Harry Potter and the Philosopher's Stone"^^xsd:string ;
+    ns1:developer "KnowWonder" .
+
+ns3:HeartsofIronIV a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Paradox Interactive" ;
+    ns2:VideoGameSeries "Hearts of Iron" ;
+    ns2:genre "Grand strategy wargame",
+        "Real-time strategy" ;
+    ns2:name "Hearts of Iron IV"^^xsd:string ;
+    ns1:developer "Paradox Development Studio" .
+
+ns3:HiddenDangerous a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Take-Two Interactive" ;
+    ns2:VideoGameSeries "Hidden & Dangerous" ;
+    ns2:genre "Action" ;
+    ns2:name "Hidden & Dangerous"^^xsd:string ;
+    ns1:developer "Illusion Softworks" .
+
+ns3:HiddenDangerous2 a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Take-Two Interactive" ;
+    ns2:VideoGameSeries "Hidden & Dangerous" ;
+    ns2:genre "Action" ;
+    ns2:name "Hidden & Dangerous 2"^^xsd:string ;
+    ns1:developer "Illusion Softworks" .
+
+ns3:HollowKnight a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Team Cherry" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Metroidvania" ;
+    ns2:name "Hollow Knight"^^xsd:string ;
+    ns1:developer "Team Cherry" .
+
+ns3:HotelGiant a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "JoWood Productions" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Business simulation" ;
+    ns2:name "Hotel Giant"^^xsd:string ;
+    ns1:developer "Enlight Software" .
+
+ns3:Hydlide a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Technology and Entertainment Software" ;
+    ns2:VideoGameSeries "Hydlide" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Hydlide"^^xsd:string ;
+    ns1:developer "Technology and Entertainment Software" .
+
+ns3:ImperivmGreatBattlesofRome a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "FX Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Imperivm: Great Battles of Rome"^^xsd:string ;
+    ns1:developer "Haemimont Games" .
+
+ns3:InternationalKarate a ns2:VideoGame ;
+    ns3:sales "1500000.0"^^xsd:float ;
+    ns4:publisher "Epyx" ;
+    ns2:VideoGameSeries "International Karate" ;
+    ns2:genre "Fighting" ;
+    ns2:name "International Karate"^^xsd:string ;
+    ns1:developer "System 3" .
+
+<http://example.org/JustSurvive[e]> a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Daybreak Game Company" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Survival" ;
+    ns2:name "Just Survive[e]"^^xsd:string ;
+    ns1:developer "Daybreak Game Company" .
+
+ns3:KillingFloor a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Tripwire Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Killing Floor"^^xsd:string ;
+    ns1:developer "Tripwire Interactive" .
+
+ns3:KingdomComeDeliverance a ns2:VideoGame ;
+    ns3:sales "1100000.0"^^xsd:float ;
+    ns4:publisher "Warhorse Studios" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Action role-playing game" ;
+    ns2:name "Kingdom Come: Deliverance"^^xsd:string ;
+    ns1:developer "Warhorse Studios" .
+
+ns3:LastNinja2 a ns2:VideoGame ;
+    ns3:sales "5500000.0"^^xsd:float ;
+    ns4:publisher "Activision" ;
+    ns2:VideoGameSeries "The Last Ninja" ;
+    ns2:genre "Action-adventure" ;
+    ns2:name "Last Ninja 2"^^xsd:string ;
+    ns1:developer "System 3" .
+
+ns3:LifeIsStrange a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Square Enix" ;
+    ns2:VideoGameSeries "Life Is Strange" ;
+    ns2:genre "Graphic adventure" ;
+    ns2:name "Life Is Strange"^^xsd:string ;
+    ns1:developer "Dontnod Entertainment" .
+
+ns3:LordsoftheRealmII a ns2:VideoGame ;
+    ns3:sales "2500000.0"^^xsd:float ;
+    ns4:publisher "Impressions Game" ;
+    ns2:VideoGameSeries "Lord of the Realm" ;
+    ns2:genre "Turn-based strategy" ;
+    ns2:name "Lords of the Realm II"^^xsd:string ;
+    ns1:developer "Impressions Game" .
+
+ns3:Machinarium a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Amanita Design" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Graphic adventure",
+        "Puzzle" ;
+    ns2:name "Machinarium"^^xsd:string ;
+    ns1:developer "Amanita Design" .
+
+ns3:MafiaTheCityofLostHeaven a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Gathering of Developers" ;
+    ns2:VideoGameSeries "Mafia" ;
+    ns2:genre "Third-person shooter" ;
+    ns2:name "Mafia: The City of Lost Heaven"^^xsd:string ;
+    ns1:developer "Illusion Softworks" .
+
+ns3:Magicka a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Paradox Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Action-adventure" ;
+    ns2:name "Magicka"^^xsd:string ;
+    ns1:developer "Arrowhead Game Studios" .
+
+ns3:MetalGearSolidVThePhantomPain a ns2:VideoGame ;
+    ns3:sales "1800000.0"^^xsd:float ;
+    ns4:publisher "Konami" ;
+    ns2:VideoGameSeries "Metal Gear Solid" ;
+    ns2:genre "Action-adventure",
+        "Stealth" ;
+    ns2:name "Metal Gear Solid V: The Phantom Pain"^^xsd:string ;
+    ns1:developer "Kojima Productions" .
+
+ns3:MicrosoftFlightSimulatorX a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Microsoft Game Studios" ;
+    ns2:VideoGameSeries "Microsoft Flight Simulator" ;
+    ns2:genre "Amateur flight simulation" ;
+    ns2:name "Microsoft Flight Simulator X"^^xsd:string ;
+    ns1:developer "Microsoft Game Studios" .
+
+ns3:Minecraft a ns2:VideoGame ;
+    ns3:sales "33000000.0"^^xsd:float ;
+    ns4:publisher "Mojang Studios" ;
+    ns2:VideoGameSeries "Minecraft" ;
+    ns2:genre "Sandbox",
+        "Survival" ;
+    ns2:name "Minecraft"^^xsd:string ;
+    ns1:developer "Mojang Studios" .
+
+ns3:Mordhau a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Triternion" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Action" ;
+    ns2:name "Mordhau"^^xsd:string ;
+    ns1:developer "Triternion" .
+
+ns3:Myst a ns2:VideoGame ;
+    ns3:sales "2500000.0"^^xsd:float ;
+    ns4:publisher "Brøderbund" ;
+    ns2:VideoGameSeries "Myst" ;
+    ns2:genre "Adventure",
+        "Puzzle" ;
+    ns2:name "Myst"^^xsd:string ;
+    ns1:developer "Cyan" .
+
+ns3:NeverwinterNights a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Infogrames / Atari" ;
+    ns2:VideoGameSeries "Neverwinter Nights" ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "Neverwinter Nights"^^xsd:string ;
+    ns1:developer "BioWare" .
+
+ns3:NierAutomata a ns2:VideoGame ;
+    ns3:sales "1200000.0"^^xsd:float ;
+    ns4:publisher "Square Enix" ;
+    ns2:VideoGameSeries "Nier" ;
+    ns2:genre "Action role-playing",
+        "Hack and slash" ;
+    ns2:name "Nier: Automata"^^xsd:string ;
+    ns1:developer "PlatinumGames" .
+
+ns3:OperationFlashpointColdWarCrisis a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Codemasters" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Tactical shooter" ;
+    ns2:name "Operation Flashpoint: Cold War Crisis"^^xsd:string ;
+    ns1:developer "Bohemia Interactive Studio" .
+
+ns3:POD a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Ubisoft" ;
+    ns2:VideoGameSeries "POD" ;
+    ns2:genre "Racing game" ;
+    ns2:name "POD"^^xsd:string ;
+    ns1:developer "Ubisoft" .
+
+<http://example.org/Pac-ManChampionshipEditionDX+> a ns2:VideoGame ;
+    ns3:sales "1100000.0"^^xsd:float ;
+    ns4:publisher "Namco Bandai Games" ;
+    ns2:VideoGameSeries "Pac-Man" ;
+    ns2:genre "Arcade",
+        "Maze" ;
+    ns2:name "Pac-Man Championship Edition DX+"^^xsd:string ;
+    ns1:developer "Namco Bandai Games" .
+
+ns3:PatricianIIIRiseoftheHanse a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Encore" ;
+    ns2:VideoGameSeries "The Patrician" ;
+    ns2:genre "Business simulation" ;
+    ns2:name "Patrician III: Rise of the Hanse"^^xsd:string ;
+    ns1:developer "Ascaron" .
+
+ns3:Phantasmagoria a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Sierra Online" ;
+    ns2:VideoGameSeries "Phantasmagoria" ;
+    ns2:genre "Interactive movie" ;
+    ns2:name "Phantasmagoria"^^xsd:string ;
+    ns1:developer "Sierra Online" .
+
+ns3:PlanetCoaster a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Frontier Developments" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "Planet Coaster"^^xsd:string ;
+    ns1:developer "Frontier Developments" .
+
+ns3:PlayerUnknownsBattlegrounds a ns2:VideoGame ;
+    ns3:sales "42000000.0"^^xsd:float ;
+    ns4:publisher "Krafton" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Battle royale" ;
+    ns2:name "PlayerUnknown's Battlegrounds"^^xsd:string ;
+    ns1:developer "PUBG Studios" .
+
+ns3:Populous a ns2:VideoGame ;
+    ns3:sales "4000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Populous" ;
+    ns2:genre "God game" ;
+    ns2:name "Populous"^^xsd:string ;
+    ns1:developer "Bullfrog Productions" .
+
+ns3:PrisonArchitect a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Introversion Software" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "Prison Architect"^^xsd:string ;
+    ns1:developer "Introversion Software" .
+
+ns3:Psychonauts a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "THQ" ;
+    ns2:VideoGameSeries "Psychonauts" ;
+    ns2:genre "Platform" ;
+    ns2:name "Psychonauts"^^xsd:string ;
+    ns1:developer "Double Fine Productions" .
+
+ns3:Quake a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "GT Interactive" ;
+    ns2:VideoGameSeries "Quake" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Quake"^^xsd:string ;
+    ns1:developer "id Software" .
+
+ns3:QuakeII a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Activision" ;
+    ns2:VideoGameSeries "Quake" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Quake II"^^xsd:string ;
+    ns1:developer "id Software" .
+
+ns3:RailroadTycoonII a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Gathering of Developers" ;
+    ns2:VideoGameSeries "Railroad Tycoon" ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "Railroad Tycoon II"^^xsd:string ;
+    ns1:developer "PopTop Software" .
+
+ns3:ResidentEvil4UltimateHDEdition a ns2:VideoGame ;
+    ns3:sales "1200000.0"^^xsd:float ;
+    ns4:publisher "Capcom" ;
+    ns2:VideoGameSeries "Resident Evil" ;
+    ns2:genre "Survival horror",
+        "Third-person shooter" ;
+    ns2:name "Resident Evil 4: Ultimate HD Edition"^^xsd:string ;
+    ns1:developer "Capcom" .
+
+ns3:ResidentEvil5 a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Capcom" ;
+    ns2:VideoGameSeries "Resident Evil" ;
+    ns2:genre "Survival horror",
+        "Third-person shooter" ;
+    ns2:name "Resident Evil 5"^^xsd:string ;
+    ns1:developer "Capcom" .
+
+ns3:ResidentEvil6 a ns2:VideoGame ;
+    ns3:sales "1300000.0"^^xsd:float ;
+    ns4:publisher "Capcom" ;
+    ns2:VideoGameSeries "Resident Evil" ;
+    ns2:genre "Survival horror",
+        "Third-person shooter" ;
+    ns2:name "Resident Evil 6"^^xsd:string ;
+    ns1:developer "Capcom" .
+
+ns3:ReturntoCastleWolfenstein a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Activision" ;
+    ns2:VideoGameSeries "Wolfenstein" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Return to Castle Wolfenstein"^^xsd:string ;
+    ns1:developer "Gray Matter Interactive" .
+
+ns3:ReturntoZork a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Activision" ;
+    ns2:VideoGameSeries "Zork" ;
+    ns2:genre "Adventure" ;
+    ns2:name "Return to Zork"^^xsd:string ;
+    ns1:developer "Infocom" .
+
+ns3:RoboCop a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Data East, Ocean Software" ;
+    ns2:VideoGameSeries "RoboCop" ;
+    ns2:genre "Beat 'em up",
+        "Run-and-gun" ;
+    ns2:name "RoboCop"^^xsd:string ;
+    ns1:developer "Data East" .
+
+ns3:RollerCoasterTycoon a ns2:VideoGame ;
+    ns3:sales "4000000.0"^^xsd:float ;
+    ns4:publisher "MicroProse Software" ;
+    ns2:VideoGameSeries "RollerCoaster Tycoon" ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "RollerCoaster Tycoon"^^xsd:string ;
+    ns1:developer "Chris Sawyer" .
+
+ns3:RollerCoasterTycoon3 a ns2:VideoGame ;
+    ns3:sales "10000000.0"^^xsd:float ;
+    ns4:publisher "Atari, Inc. (Windows)" ;
+    ns2:VideoGameSeries "RollerCoaster Tycoon" ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "RollerCoaster Tycoon 3"^^xsd:string ;
+    ns1:developer "Frontier Developments" .
+
+ns3:RomeTotalWar a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Activision" ;
+    ns2:VideoGameSeries "Total War" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Rome: Total War"^^xsd:string ;
+    ns1:developer "The Creative Assembly" .
+
+ns3:RunawayARoadAdventure a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Dinamic Multimedia" ;
+    ns2:VideoGameSeries "Runaway" ;
+    ns2:genre "Adventure" ;
+    ns2:name "Runaway: A Road Adventure"^^xsd:string ;
+    ns1:developer "Péndulo Studios, S.L." .
+
+ns3:Rust a ns2:VideoGame ;
+    ns3:sales "9000000.0"^^xsd:float ;
+    ns4:publisher "Facepunch Studios" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Survival" ;
+    ns2:name "Rust"^^xsd:string ;
+    ns1:developer "Facepunch Studios" .
+
+ns3:Sacred a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Encore" ;
+    ns2:VideoGameSeries "Sacred" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "Sacred"^^xsd:string ;
+    ns1:developer "Ascaron" .
+
+ns3:Satisfactory a ns2:VideoGame ;
+    ns3:sales "1300000.0"^^xsd:float ;
+    ns4:publisher "Coffee Stain Publishing" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "Satisfactory"^^xsd:string ;
+    ns1:developer "Coffee Stain Studios" .
+
+ns3:SegaMegaDriveandGenesisClassics a ns2:VideoGame ;
+    ns3:sales "1500000.0"^^xsd:float ;
+    ns4:publisher "Sega" ;
+    ns2:VideoGameSeries "Sega Mega Drive and Genesis Classics" ;
+    ns2:genre "Compilation" ;
+    ns2:name "Sega Mega Drive and Genesis Classics"^^xsd:string ;
+    ns1:developer "Sega" .
+
+ns3:SimCity a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "SimCity" ;
+    ns2:genre "City-building" ;
+    ns2:name "SimCity"^^xsd:string ;
+    ns1:developer "Electronic Arts" .
+
+ns3:SimCity3000 a ns2:VideoGame ;
+    ns3:sales "5000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "SimCity" ;
+    ns2:genre "City-building" ;
+    ns2:name "SimCity 3000"^^xsd:string ;
+    ns1:developer "Maxis" .
+
+ns3:SimCity4 a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts (Windows)" ;
+    ns2:VideoGameSeries "SimCity" ;
+    ns2:genre "City-building" ;
+    ns2:name "SimCity 4"^^xsd:string ;
+    ns1:developer "Maxis" .
+
+ns3:SpaceEngineers a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Keen Software House" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Simulation" ;
+    ns2:name "Space Engineers"^^xsd:string ;
+    ns1:developer "Keen Software House" .
+
+ns3:Spore a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Spore" ;
+    ns2:genre "God game" ;
+    ns2:name "Spore"^^xsd:string ;
+    ns1:developer "Maxis" .
+
+ns3:StarCraft a ns2:VideoGame ;
+    ns3:sales "11000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "StarCraft" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "StarCraft"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+ns3:StarCraftIIHeartoftheSwarm a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "StarCraft" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "StarCraft II: Heart of the Swarm"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+ns3:StarCraftIILegacyoftheVoid a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "StarCraft" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "StarCraft II: Legacy of the Void"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+ns3:StarCraftIIWingsofLiberty a ns2:VideoGame ;
+    ns3:sales "6000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "StarCraft" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "StarCraft II: Wings of Liberty"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+ns3:StarWarsGalaxies a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "LucasArts" ;
+    ns2:VideoGameSeries "Star Wars" ;
+    ns2:genre "Mmorpg" ;
+    ns2:name "Star Wars Galaxies"^^xsd:string ;
+    ns1:developer "Sony Online Entertainment" .
+
+ns3:StarWarsRebelAssault a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "LucasArts" ;
+    ns2:VideoGameSeries "Star Wars" ;
+    ns2:genre "Rail shooter" ;
+    ns2:name "Star Wars: Rebel Assault"^^xsd:string ;
+    ns1:developer "LucasArts" .
+
+ns3:StardewValley a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "ConcernedApe[f]" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Role-playing game",
+        "Simulation" ;
+    ns2:name "Stardew Valley"^^xsd:string ;
+    ns1:developer "ConcernedApe" .
+
+ns3:Stellaris a ns2:VideoGame ;
+    ns3:sales "1500000.0"^^xsd:float ;
+    ns4:publisher "Paradox Interactive" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "4x",
+        "Grand strategy",
+        "Rts" ;
+    ns2:name "Stellaris"^^xsd:string ;
+    ns1:developer "Paradox Development Studio" .
+
+ns3:StickfightTheGame a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Landfall Games" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Fighting" ;
+    ns2:name "Stickfight: The Game"^^xsd:string ;
+    ns1:developer "Landfall Games" .
+
+ns3:Stronghold a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Take-Two Interactive / Gathering of Developers" ;
+    ns2:VideoGameSeries "Stronghold" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Stronghold"^^xsd:string ;
+    ns1:developer "Firefly Studios" .
+
+ns3:StrongholdCrusader a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Take-Two Interactive / Gathering of Developers" ;
+    ns2:VideoGameSeries "Stronghold" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Stronghold: Crusader"^^xsd:string ;
+    ns1:developer "Firefly Studios" .
+
+ns3:SupremeCommander a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "THQ" ;
+    ns2:VideoGameSeries "Total Annihilation" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Supreme Commander"^^xsd:string ;
+    ns1:developer "Gas Powered Games" .
+
+ns3:Terraria a ns2:VideoGame ;
+    ns3:sales "17200000.0"^^xsd:float ;
+    ns4:publisher "Re-Logic" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Action-adventure" ;
+    ns2:name "Terraria"^^xsd:string ;
+    ns1:developer "Re-Logic" .
+
+ns3:Tetris a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Spectrum HoloByte" ;
+    ns2:VideoGameSeries "Tetris" ;
+    ns2:genre "Puzzle" ;
+    ns2:name "Tetris"^^xsd:string ;
+    ns1:developer "Spectrum HoloByte" .
+
+ns3:TheBindingofIsaac a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Headup Games" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Action-adventure",
+        "Roguelike" ;
+    ns2:name "The Binding of Isaac"^^xsd:string ;
+    ns1:developer "Edmund McMillen & Florian Himsl" .
+
+ns3:TheForest a ns2:VideoGame ;
+    ns3:sales "5000000.0"^^xsd:float ;
+    ns4:publisher "Endnight Games" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Survival" ;
+    ns2:name "The Forest"^^xsd:string ;
+    ns1:developer "Endnight Games" .
+
+ns3:TheLastNinja a ns2:VideoGame ;
+    ns3:sales "4000000.0"^^xsd:float ;
+    ns4:publisher "Activision" ;
+    ns2:VideoGameSeries "The Last Ninja" ;
+    ns2:genre "Action-adventure" ;
+    ns2:name "The Last Ninja"^^xsd:string ;
+    ns1:developer "System 3" .
+
+ns3:TheLegendofSwordandFairy3 a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Softstar Entertainment" ;
+    ns2:VideoGameSeries "The Legend of Sword and Fairy" ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "The Legend of Sword and Fairy 3"^^xsd:string ;
+    ns1:developer "Softstar Entertainment" .
+
+ns3:TheLegendofSwordandFairy5 a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Softstar" ;
+    ns2:VideoGameSeries "The Legend of Sword and Fairy" ;
+    ns2:genre "Role-playing game" ;
+    ns2:name "The Legend of Sword and Fairy 5"^^xsd:string ;
+    ns1:developer "Softstar" .
+
+ns3:TheSims a ns2:VideoGame ;
+    ns3:sales "11000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "The Sims" ;
+    ns2:genre "Life simulation" ;
+    ns2:name "The Sims"^^xsd:string ;
+    ns1:developer "Maxis" .
+
+ns3:TheSims2 a ns2:VideoGame ;
+    ns3:sales "6000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "The Sims" ;
+    ns2:genre "Life simulation" ;
+    ns2:name "The Sims 2"^^xsd:string ;
+    ns1:developer "Maxis" .
+
+ns3:TheSims3 a ns2:VideoGame ;
+    ns3:sales "7000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "The Sims" ;
+    ns2:genre "Life simulation" ;
+    ns2:name "The Sims 3"^^xsd:string ;
+    ns1:developer "Maxis" .
+
+ns3:TheStanleyParable a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Galactic Cafe" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Interactive fiction" ;
+    ns2:name "The Stanley Parable"^^xsd:string ;
+    ns1:developer "Galactic Cafe" .
+
+ns3:TheWitcher a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Atari, Inc" ;
+    ns2:VideoGameSeries "The Witcher" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "The Witcher"^^xsd:string ;
+    ns1:developer "CD Projekt Red" .
+
+ns3:TheWitcher2AssassinsofKings a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "CD Projekt" ;
+    ns2:VideoGameSeries "The Witcher" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "The Witcher 2: Assassins of Kings"^^xsd:string ;
+    ns1:developer "CD Projekt Red" .
+
+ns3:TheWitcher3WildHunt a ns2:VideoGame ;
+    ns3:sales "12000000.0"^^xsd:float ;
+    ns4:publisher "CD Projekt" ;
+    ns2:VideoGameSeries "The Witcher" ;
+    ns2:genre "Action role-playing" ;
+    ns2:name "The Witcher 3: Wild Hunt"^^xsd:string ;
+    ns1:developer "CD Projekt Red" .
+
+ns3:ThemePark a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Theme Park" ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "Theme Park"^^xsd:string ;
+    ns1:developer "Bullfrog Productions" .
+
+ns3:TotalAnnihilation a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "GT Interactive" ;
+    ns2:VideoGameSeries "Total Annihilation" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Total Annihilation"^^xsd:string ;
+    ns1:developer "Cavedog Entertainment" .
+
+ns3:Tropico a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Gathering of Developers" ;
+    ns2:VideoGameSeries "Tropico" ;
+    ns2:genre "Construction and management simulation" ;
+    ns2:name "Tropico"^^xsd:string ;
+    ns1:developer "PopTop Software" .
+
+ns3:UltraStreetFighterIV a ns2:VideoGame ;
+    ns3:sales "1300000.0"^^xsd:float ;
+    ns4:publisher "Capcom" ;
+    ns2:VideoGameSeries "Street Fighter" ;
+    ns2:genre "Fighting" ;
+    ns2:name "Ultra Street Fighter IV"^^xsd:string ;
+    ns1:developer "Capcom" .
+
+ns3:Unreal a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "GT Interactive" ;
+    ns2:VideoGameSeries "Unreal" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Unreal"^^xsd:string ;
+    ns1:developer "Epic Games" .
+
+ns3:UnrealTournament a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "GT Interactive" ;
+    ns2:VideoGameSeries "Unreal" ;
+    ns2:genre "First-person shooter" ;
+    ns2:name "Unreal Tournament"^^xsd:string ;
+    ns1:developer "Epic Games" .
+
+ns3:Valheim a ns2:VideoGame ;
+    ns3:sales "6000000.0"^^xsd:float ;
+    ns4:publisher "Coffee Stain Publishing" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Survival" ;
+    ns2:name "Valheim"^^xsd:string ;
+    ns1:developer "Iron Gate" .
+
+ns3:Vietcong a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Gathering of Developers" ;
+    ns2:VideoGameSeries "Vietcong" ;
+    ns2:genre "Tactical shooter" ;
+    ns2:name "Vietcong"^^xsd:string ;
+    ns1:developer "Pterodon" .
+
+ns3:WarcraftIIIReignofChaos a ns2:VideoGame ;
+    ns3:sales "3000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment (North America)" ;
+    ns2:VideoGameSeries "Warcraft" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Warcraft III: Reign of Chaos"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+ns3:WarcraftIITidesofDarkness a ns2:VideoGame ;
+    ns3:sales "2000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "Warcraft" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Warcraft II: Tides of Darkness"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+<http://example.org/Warhammer40000DawnofWar (includingexpansions)> a ns2:VideoGame ;
+    ns3:sales "4000000.0"^^xsd:float ;
+    ns4:publisher "THQ" ;
+    ns2:VideoGameSeries "Warhammer" ;
+    ns2:genre "Real-time strategy" ;
+    ns2:name "Warhammer 40,000: Dawn of War (including expansions)"^^xsd:string ;
+    ns1:developer "Relic Entertainment" .
+
+ns3:WarhammerOnlineAgeofReckoning a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Warhammer" ;
+    ns2:genre "Mmorpg" ;
+    ns2:name "Warhammer Online: Age of Reckoning"^^xsd:string ;
+    ns1:developer "Mythic Entertainment" .
+
+ns3:WhereintheWorldIsCarmenSandiego a ns2:VideoGame ;
+    ns3:sales "4000000.0"^^xsd:float ;
+    ns4:publisher "Broderbund" ;
+    ns2:VideoGameSeries "Carmen Sandiego" ;
+    ns2:genre "Educational" ;
+    ns2:name "Where in the World Is Carmen Sandiego?"^^xsd:string ;
+    ns1:developer "Broderbund" .
+
+ns3:WhoWantstoBeaMillionaire a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Disney Interactive Studios" ;
+    ns2:VideoGameSeries "NaN"^^xsd:double ;
+    ns2:genre "Trivia game" ;
+    ns2:name "Who Wants to Be a Millionaire?"^^xsd:string ;
+    ns1:developer "Jellyvision" .
+
+ns3:WingCommander3HeartoftheTiger a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Electronic Arts" ;
+    ns2:VideoGameSeries "Wing Commander" ;
+    ns2:genre "Space combat simulation" ;
+    ns2:name "Wing Commander 3: Heart of the Tiger"^^xsd:string ;
+    ns1:developer "Origin Systems" .
+
+ns3:WorldofWarcraft a ns2:VideoGame ;
+    ns3:sales "14000000.0"^^xsd:float ;
+    ns4:publisher "Blizzard Entertainment" ;
+    ns2:VideoGameSeries "Warcraft" ;
+    ns2:genre "Mmorpg" ;
+    ns2:name "World of Warcraft"^^xsd:string ;
+    ns1:developer "Blizzard Entertainment" .
+
+ns3:ZooTycoon a ns2:VideoGame ;
+    ns3:sales "1000000.0"^^xsd:float ;
+    ns4:publisher "Blue Fang Games" ;
+    ns2:VideoGameSeries "Zoo Tycoon" ;
+    ns2:genre "Business simulation" ;
+    ns2:name "Zoo Tycoon"^^xsd:string ;
+    ns1:developer "Microsoft" .
+

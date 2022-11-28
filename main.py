@@ -48,7 +48,7 @@ for index, row in df.iterrows():
         g.add((URIRef(ex + givenName), URIRef(schema + genre), Literal(j)))
 
     g.add((URIRef(ex + givenName), URIRef(schema + videoGameSeries), Literal(row['Series'])))
-    g.add((URIRef(ex + givenName), URIRef(schema + releaseDate), Literal(row['Release'], datatype=XSD.gMonthDay)))
+    #g.add((URIRef(ex + givenName), URIRef(schema + releaseDate), Literal(row['Release'], datatype=XSD.date)))
     g.add((URIRef(ex + givenName), URIRef(useful + developer), Literal(row['Developer'])))
     g.add((URIRef(ex + givenName), URIRef(purl + publisher), Literal(row['Publisher'])))
 
