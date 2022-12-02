@@ -1,0 +1,99 @@
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ns1: <http://schema.org/> 
+PREFIX ns2: <http://purl.org/dc/elements/1.1/> 
+PREFIX ns3: <http://example.org/> 
+PREFIX ns4: <http://usefulinc.com/ns/doap#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+# Q1: Cantidad de juegos por publisher
+SELECT ?publisher (COUNT(?game) as ?count) WHERE {
+    ?game ns2:publisher ?publisher.
+}
+GROUP BY ?publisher
+
+#Q2: Ventas totales por publisher
+SELECT ?developer (SUM(?sales) as ?count) WHERE {
+    ?game ns4:developer ?developer.
+    ?game ns3:sales ?sales.
+}
+GROUP BY ?developer
+
+#Q3: Género con más ventas
+SELECT ?genre (SUM(?sales) as ?count) WHERE{
+    ?game ns1:genre ?genre.
+    ?game ns3:sales ?sales.
+}
+GROUP BY ?genre
+ORDER BY DESC(?count)
+
+#Q4: Cantidad de juegos por género
+SELECT ?genre (COUNT(?game) as ?count) WHERE{
+    ?game ns1:genre ?genre.
+    ?game ns3:sales ?sales.
+}
+GROUP BY ?genre
+ORDER BY DESC(?count)
+
+#Q5: Cantidad de juegos lanzados por año
+SELECT ?year (COUNT(?game) as ?count) WHERE{
+    SELECT (year(?date) as ?year) ?game WHERE {
+        ?game ns1:releaseDate ?date.
+    }
+    GROUP BY ?date ?game
+}
+GROUP BY ?year
+
+#Q6: Series más vendidas
+SELECT ?series (SUM(?b) AS ?result) WHERE {
+    ?game ns1:VideoGameSeries ?series .
+    {SELECT ?series2 ?b WHERE{
+        ?game2 ns1:VideoGameSeries ?series2 .
+        ?game2 ns3:sales ?b .
+    }}
+    FILTER(?series = ?series2)
+}
+GROUP BY ?series
+ORDER BY DESC(?result)
+
+
+#Q7: Publisher con mayor ratio de ventas por publicación
+SELECT ?publisher (?total/?count AS ?ratio) WHERE {
+    #juegos por publisher
+    SELECT ?publisher (SUM(?sales) AS ?total) (COUNT(?game) AS ?count) WHERE{
+        ?game ns2:publisher ?publisher.
+        ?game ns3:sales ?sales.
+    }
+    GROUP BY ?publisher
+    ORDER BY DESC(?ratio)
+
+}
+
+#Q8 género más frecuente por publisher
+
+SELECT ?developer ?genre ?max WHERE{
+
+  {
+  SELECT ?developer ?genre (COUNT(?genre) as ?count) WHERE{
+          ?game ns4:developer ?developer .
+          ?game ns1:genre ?genre.
+      }
+      GROUP BY ?developer ?genre
+      ORDER BY DESC(?count)
+    }
+  {
+  SELECT ?developer2 (MAX(?count) as ?max) WHERE{
+  SELECT ?developer2 ?genre2 (COUNT(?genre2) as ?count2) WHERE{
+          ?game2 ns4:developer ?developer2 .
+          ?game2 ns1:genre ?genre2.
+      }
+      GROUP BY ?developer2 ?genre2
+      ORDER BY DESC(?count22)
+}
+GROUP BY ?developer2
+ORDER BY DESC(?max)
+    }
+  FILTER(?count = ?max && ?developer = ?developer2)
+}
+GROUP BY ?developer ?genre ?max
+ORDER BY DESC(?max)
